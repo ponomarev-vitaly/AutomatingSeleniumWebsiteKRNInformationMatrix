@@ -3,18 +3,19 @@
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>4.10.0</version> <!-- Update to the latest version -->
+        <version>4.19.0</version> <!-- Update to the latest version -->
     </dependency>
     <!-- Chrome Driver -->
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-chrome-driver</artifactId>
-        <version>4.10.0</version> <!-- Update to the latest version -->
+        <version>4.19.0</version> <!-- Update to the latest version -->
     </dependency>
     <!-- Chrome DevTools -->
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-devtools-v112</artifactId>
-        <version>4.10.0</version> <!-- Update to the latest version -->
+        <artifactId>selenium-devtools-v124.0.6367.118</artifactId>
+        <version>4.19.0</version> <!-- Update to the latest version -->
     </dependency>
 </dependencies>
+
