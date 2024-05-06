@@ -33,11 +33,13 @@
             <artifactId>hamcrest</artifactId>
             <version>2.2</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.1.0</version>  <!-- Use the latest version -->
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>4.19.1</version>
         </dependency>
+
 
     </dependencies>
     

@@ -21,11 +21,12 @@ public class KRNInformationMatrix {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[11]/div[1]/p[1]/button[1]")).click();
         Thread.sleep(3000);
-        driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[11]/div[1]/p[1]/button[1]")).click();
-        Thread.sleep(3000);
+        // driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[11]/div[1]/p[1]/button[1]")).click();
+        // Thread.sleep(3000);
         String altText = driver.switchTo().alert().getText();
         System.out.println(altText);
         driver.switchTo().alert().accept();
+        driver.quit();
 
     }
 
