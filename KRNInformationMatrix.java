@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class KRNInformationMatrix {
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver/");
         WebDriver driver = new FirefoxDriver();
 
         driver.manage().window().maximize();
