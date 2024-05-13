@@ -6,7 +6,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class KRNInformationMatrix {
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver");
+        // In Selenium version 4.6.0 and above, you no longer need to manually set the path to the geckodriver using System.setProperty().
+        // This is because Selenium has introduced automatic driver management, which simplifies the setup process.
+        // System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver");
         WebDriver driver = new FirefoxDriver();
 
         driver.manage().window().maximize();
